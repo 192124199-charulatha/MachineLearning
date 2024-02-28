@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-data = pd.DataFrame(data=pd.read_csv('D:/Shiva/ML/ENJOYSPORT.csv'))
+data = pd.DataFrame(data=pd.read_csv('D:/charu/ML/ENJOYSPORT.csv'))
 concepts = np.array(data.iloc[:,0:-1])
 print(concepts)
 target = np.array(data.iloc[:,-1])
